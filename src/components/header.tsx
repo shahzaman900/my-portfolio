@@ -1,20 +1,9 @@
-import { MenuIcon, XCircle } from 'lucide-react';
+import { MenuIcon } from 'lucide-react';
 import profile from '../assets/profile.svg'
 import { ModeToggle } from './mode-toggle';
-import {
-  Drawer,
-  DrawerClose,
-  DrawerContent,
-  DrawerDescription,
-  DrawerFooter,
-  DrawerHeader,
-  DrawerTitle,
-  DrawerTrigger,
-} from "@/components/ui/drawer"
-
 import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
-import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTitle, SheetTrigger } from './ui/sheet';
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetHeader, SheetTrigger } from './ui/sheet';
 
 
 function Header() {
@@ -44,19 +33,6 @@ function Header() {
         <div className='flex gap-4 items-center justify-center'>
           <ModeToggle></ModeToggle>
           <div className='md:hidden'>
-            {/* <Drawer direction='right'>
-              <DrawerTrigger><Button variant={'outline'}><MenuIcon /></Button></DrawerTrigger>
-              <DrawerContent>
-                <DrawerClose><XCircle /></DrawerClose>
-                <div>
-                  <nav>
-                    <DrawerClose>
-                      <a href="#">dfsd</a>
-                    </DrawerClose>
-                  </nav>
-                </div>
-              </DrawerContent>
-            </Drawer> */}
             <Sheet>
               <SheetTrigger><Button variant={'outline'}><MenuIcon /></Button></SheetTrigger>
               <SheetContent>
