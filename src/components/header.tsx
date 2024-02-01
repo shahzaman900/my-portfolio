@@ -1,5 +1,5 @@
 import { Menu } from 'lucide-react';
-import profile from '../assets/profile.svg'
+import profile from '../assets/my-pic.jpg'
 import { ModeToggle } from './mode-toggle';
 import {
   Sheet,
