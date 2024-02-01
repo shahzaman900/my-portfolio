@@ -13,7 +13,9 @@ function AboutMe() {
             quickly learning new languages.</p>
         </div>
         <div>
-          <Button variant={'outline'}>Get My Resume</Button>
+          <a href="../assets/Shah Zaman - Full Stack Developer.pdf" download>
+            <Button variant={'outline'}>Get My Resume</Button>
+          </a>
         </div>
       </div>
     </>
