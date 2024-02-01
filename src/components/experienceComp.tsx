@@ -5,7 +5,7 @@ let experience = [
     company: 'Cognitive Healthcare International',
     website: 'https://chi-technologies.com/',
     worklist: ['Optimized5+backend systems, cutting response time by 20%.', 'Managedproject timelines effectively, delivering 100% of projects on schedule, and showcasing strong', 'Guidedjunior developers on development strategies and innovative techniques.'],
-    tags: ['Reactjs', 'Postgres', 'Nest js'],
+    tags: ['Reactjs', 'Postgres', 'Nest js', 'Next js', 'Tailwind', 'Material UI', 'Redux Toolkit'],
   },
   {
     date: 'Jan 2019 – Jul 2021',
@@ -13,7 +13,7 @@ let experience = [
     company: 'ON2SOL(PVT) LIMITED',
     website: 'https://www.on2sol.com/',
     worklist: ['Designedandimplemented a strategic plan, enhancing cohesion and streamlining development.', 'Enhanceddevelopment efficiency by 30%, ensuring timely delivery of new features for future projects.'],
-    tags: ['Reactjs', 'Postgres', 'Nest js'],
+    tags: ['Reactjs', 'Next js', 'Tailwind', 'Material UI', 'Redux Toolkit'],
   },
   {
     date: 'May 2018 – Jan 2019',
@@ -21,7 +21,7 @@ let experience = [
     company: '+VISION',
     website: 'https://www.plusvis.com/',
     worklist: [' Implementedadesign system for future projects, ensuring consistency through collaborative development.', 'Fixedbugswithcode, design patterns, and miscellaneous occurrences during the project.'],
-    tags: ['Reactjs', 'Postgres', 'Nest js'],
+    tags: ['Figma', 'Html', 'CSS', 'Javascript', 'Angular'],
   }
 ];
 
