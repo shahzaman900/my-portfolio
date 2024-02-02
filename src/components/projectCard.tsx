@@ -23,7 +23,7 @@ let projects = [
     name: 'Awesome_Books',
     disc: 'In this website you will find best books related every field.',
     image: `${books}`,
-    website: 'https://github.com/shahzaman900/Awesome_Books_ES6?tab=readme-ov-file',
+    website: 'https://shahzaman900.github.io/Awesome_Books_ES6/',
     tags: ['Javascript', 'Html', 'Css', 'Saas', 'Tailwind'],
   },
   {
