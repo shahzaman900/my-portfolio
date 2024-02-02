@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { TypeAnimation } from 'react-type-animation';
 
 function Introduction() {
@@ -18,7 +19,8 @@ function Introduction() {
         className=''
         repeat={Infinity}
       />
-      <h6 className='text-xl text-foreground/80 '><span className='text-primary pr-2'>----</span>Lead frontend team at <span className='text-primary underline underline-offset-4'>Cognitive Healthcare International</span></h6>
+      <h6 className='text-xl text-foreground/80 '><span className='text-primary pr-2'>----</span>Lead frontend team at <span className='text-white font-bold'>Cognitive Healthcare International</span></h6>
+      <h6 className='text-xl text-foreground/80 '><span className='text-primary pr-2'>----</span>Checkout my <Link to={'projects'} ><span className="text-primary underline cursor-pointer after:content-['_↗']">Projects</span></Link></h6>
     </div>
   )
 }
