@@ -51,7 +51,7 @@ function AboutMe() {
           </div>
         </div>
         <div>
-          <a href="../assets/Shah Zaman - Full Stack Developer.pdf" download>
+          <a href="https://drive.google.com/file/d/1xCdFOLMx0uReY1MhsOq3mH7Yf81Rqace/view?usp=sharing" target="_blank">
             <Button variant={'outline'}>Get My Resume</Button>
           </a>
         </div>
