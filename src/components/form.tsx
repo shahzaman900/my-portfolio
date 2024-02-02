@@ -27,7 +27,7 @@ function ContactForm() {
         <Textarea placeholder="Type your message here." id="message" />
         <ValidationError prefix="message" field="message" errors={state.errors} />
       </div>
-      <Button type="submit" disabled={state.submitting}> Submit </Button>
+      <Button className='text-white' type="submit" disabled={state.submitting}> Submit </Button>
     </form>
   );
 }

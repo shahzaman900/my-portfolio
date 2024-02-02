@@ -7,35 +7,29 @@ import Header from './components/header'
 import Projects from './pages/projects'
 import Experience from './pages/experience'
 import Contact from './pages/contact'
+import SocialMedia from './components/socialMedia'
 
 function App() {
 
   return (
-    //   <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-    //     <Header ></Header>
-    //     <Routes>
-    //       <Route path='/' element={<Home />} />
-    //       <Route path='/about' element={<About />} />
-    //       <Route path='/projects' element={<Projects />} />
-    //       <Route path='/experience' element={<Experience />} />
-    //       <Route path='/contact' element={<Contact />} />
-    //     </Routes>
-    //   </ThemeProvider>
-    // )
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-      <Header ></Header>
-      <Home />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-      {/* <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/projects' element={<Projects />} />
-        <Route path='/experience' element={<Experience />} />
-        <Route path='/contact' element={<Contact />} />
-      </Routes> */}
+      <div className='w-full h-screen flex flex-col'>
+        <div className='static top-0'>
+          <Header />
+        </div>
+        <div className='flex flex-1 overflow-hidden'>
+          <div className='static '>
+            <SocialMedia />
+          </div>
+          <div className='flex-1 overflow-y-auto p-4'>
+            <Home />
+            <About />
+            <Projects />
+            <Experience />
+            <Contact />
+          </div>
+        </div>
+      </div>
     </ThemeProvider>
   )
 }

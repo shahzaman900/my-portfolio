@@ -6,7 +6,7 @@ function About() {
     <>
       {/* <div className='flex flex-row md:pl-24'> */}
         {/* <SocialMedia></SocialMedia> */}
-        <div className='flex flex-1 pb-8 items-start md:items-center sm:items-center justify-center overflow-auto h-dvh'>
+        <div className='flex flex-1 pb-8 items-start md:items-center sm:items-center justify-center h-dvh'>
           <AboutMe></AboutMe>
         </div>
       {/* </div> */}
