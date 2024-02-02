@@ -1,5 +1,5 @@
-import health from '../assets/health.svg'
-import todo from '../assets/todo.gif'
+import health from '../assets/booking.png'
+import todo from '../assets/todo.png'
 import books from '../assets/books.jpg'
 import weather from '../assets/weather.png'
 
@@ -10,6 +10,7 @@ let projects = [
     disc: ' Intuitive interface for effortless medical bookings. Streamlining scheduling for enhanced user experience.',
     image: `${health}`,
     website: 'https://jade-rabanadas-479b96.netlify.app/',
+    github: 'https://github.com/tajemouti/medical-appointments-front-end?tab=readme-ov-file',
     tags: ['React js', 'Postgres', 'Ruby on Rails', 'Redux Toolkit'],
   },
   {
@@ -17,6 +18,7 @@ let projects = [
     disc: 'Awebappthatallows users to explore air quality and weather data for various regions',
     image: `${weather}`,
     website: 'https://weather-app-wd6h.onrender.com/',
+    github: 'https://github.com/shahzaman900/Weather-app',
     tags: ['React js', 'Redux Toolkit'],
   },
   {
@@ -24,13 +26,15 @@ let projects = [
     disc: 'In this website you will find best books related every field.',
     image: `${books}`,
     website: 'https://shahzaman900.github.io/Awesome_Books_ES6/',
+    github: 'https://github.com/shahzaman900/Awesome_Books_ES6',
     tags: ['Javascript', 'Html', 'Css', 'Saas', 'Tailwind'],
   },
   {
     name: 'Todo List',
     disc: 'Its my personal project in this website im llisting my own daily schedule.',
     image: `${todo}`,
-    website: 'https://github.com/shahzaman900/Todo-list-review',
+    website: 'https://budgetmap-v1.onrender.com/',
+    github: 'https://github.com/shahzaman900/budget-app?tab=readme-ov-file',
     tags: ['Javascript', 'Html', 'Css', 'Saas', 'Tailwind']
   },
 
@@ -46,7 +50,7 @@ function ProjectCard() {
           </div>
           <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'start', gap: '16px' }}>
             <div>
-              <h4>{project.name}<a className="text-primary cursor-pointer after:content-['_Live↗']" href={project.website} target="_blank"></a></h4>
+              <h4>{project.name}<a className="text-primary cursor-pointer after:content-['_|LiveDemo↗|']" href={project.website} target="_blank"></a> <a className="text-primary cursor-pointer after:content-['_Code↗|']" href={project.github} target="_blank"></a></h4>
               <p className='text-foreground/60 text-sm'>{project.disc}</p>
             </div>
             <div className='flex gap-2  flex-wrap'>
