@@ -11,15 +11,31 @@ import Contact from './pages/contact'
 function App() {
 
   return (
+    //   <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+    //     <Header ></Header>
+    //     <Routes>
+    //       <Route path='/' element={<Home />} />
+    //       <Route path='/about' element={<About />} />
+    //       <Route path='/projects' element={<Projects />} />
+    //       <Route path='/experience' element={<Experience />} />
+    //       <Route path='/contact' element={<Contact />} />
+    //     </Routes>
+    //   </ThemeProvider>
+    // )
     <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
       <Header ></Header>
-      <Routes>
+      <Home />
+      <About />
+      <Projects />
+      <Experience />
+      <Contact />
+      {/* <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/projects' element={<Projects />} />
         <Route path='/experience' element={<Experience />} />
         <Route path='/contact' element={<Contact />} />
-      </Routes>
+      </Routes> */}
     </ThemeProvider>
   )
 }

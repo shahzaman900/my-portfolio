@@ -26,7 +26,7 @@ body{
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  overflow-x: hidden;
   font-family: 'Inter', sans-serif;
   background-image: linear-gradient(to right, #999999 1px, transparent 3px), linear-gradient(to bottom, #999 1px, transparent 3px);
   background-size: 10px 10px;

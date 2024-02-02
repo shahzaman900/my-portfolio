@@ -18,7 +18,7 @@ function Introduction() {
         className=''
         repeat={Infinity}
       />
-      <h6 className='text-xl text-foreground/80 '><span className='text-primary pr-2'>----</span>Lead frontend team at <span className='text-primary underline underline-offset-4'>Cognitive Healthcare International</span></h6>
+      <h6 className='text-xl text-foreground/80 '><span className='text-primary pr-2'>----</span>Lead frontend team at <span className='text-white font-bold'>Cognitive Healthcare International</span></h6>
     </div>
   )
 }
