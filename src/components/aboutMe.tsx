@@ -36,9 +36,9 @@ function AboutMe() {
           <div className='flex gap-4 flex-col'>
             {
               skills.map(teck => (
-                <div className='flex gap-4'>
+                <div className='flex gap-4 md:flex-row flex-col'>
                   <h5 className='min-w-fit text-primary font-bold'>{teck.name}:</h5>
-                  <ul className='flex gap-2 flex-wrap'>
+                  <ul className='flex gap-2 flex-wrap '>
                     {
                       teck.skill.map(skill => (
                         <li className='px-2 py-1 hover:bg-primary hover:text-white rounded-md text-sm border'>{skill}</li>
