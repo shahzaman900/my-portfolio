@@ -1,5 +1,5 @@
-import health from '../assets/health.svg'
-import todo from '../assets/todo.gif'
+import health from '../assets/booking.png'
+import todo from '../assets/todo.png'
 import books from '../assets/books.jpg'
 import weather from '../assets/weather.png'
 
@@ -7,30 +7,37 @@ import weather from '../assets/weather.png'
 let projects = [
   {
     name: 'Health Clinic',
-    disc: ' Intuitive interface for effortless medical bookings. Streamlining scheduling for enhanced user experience.',
+    disc: `Develop a streamlined interface with a focus on user personas, understanding the distinct needs of patients,     healthcare providers, and administrators.
+    Utilize user journey mapping to identify and eliminate friction points in the booking process, ensuring a seamless experience from start to finish.`,
     image: `${health}`,
     website: 'https://jade-rabanadas-479b96.netlify.app/',
+    github: 'https://github.com/tajemouti/medical-appointments-front-end?tab=readme-ov-file',
     tags: ['React js', 'Postgres', 'Ruby on Rails', 'Redux Toolkit'],
   },
   {
     name: 'Weather App',
-    disc: 'Awebappthatallows users to explore air quality and weather data for various regions',
+    disc: `Design a user-friendly interface with interactive maps and charts to allow users to visually explore air quality and weather data for different regions.
+    Incorporate intuitive filters, enabling users to customize their data views based on parameters such as pollutants, timeframes, and geographical regions.`,
     image: `${weather}`,
     website: 'https://weather-app-wd6h.onrender.com/',
+    github: 'https://github.com/shahzaman900/Weather-app',
     tags: ['React js', 'Redux Toolkit'],
   },
   {
     name: 'Awesome_Books',
-    disc: 'In this website you will find best books related every field.',
+    disc: `Curate an extensive collection of top-rated books encompassing every field, ensuring a diverse and well-rounded selection.
+    Categorize books based on genres, topics, and industries, making it easy for users to explore and discover the best literature in their areas of interest.`,
     image: `${books}`,
     website: 'https://shahzaman900.github.io/Awesome_Books_ES6/',
+    github: 'https://github.com/shahzaman900/Awesome_Books_ES6',
     tags: ['Javascript', 'Html', 'Css', 'Saas', 'Tailwind'],
   },
   {
-    name: 'Todo List',
-    disc: 'Its my personal project in this website im llisting my own daily schedule.',
+    name: 'Budget app',
+    disc: `This Ruby on Rails project is about a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.`,
     image: `${todo}`,
-    website: 'https://github.com/shahzaman900/Todo-list-review',
+    website: 'https://budgetmap-v1.onrender.com/',
+    github: 'https://github.com/shahzaman900/budget-app?tab=readme-ov-file',
     tags: ['Javascript', 'Html', 'Css', 'Saas', 'Tailwind']
   },
 
@@ -46,7 +53,7 @@ function ProjectCard() {
           </div>
           <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'start', gap: '16px' }}>
             <div>
-              <h4>{project.name}<a className="text-primary cursor-pointer after:content-['_Live↗']" href={project.website} target="_blank"></a></h4>
+              <h4>{project.name}<a className="text-primary cursor-pointer after:content-['_|LiveDemo↗|']" href={project.website} target="_blank"></a> <a className="text-primary cursor-pointer after:content-['_Code↗|']" href={project.github} target="_blank"></a></h4>
               <p className='text-foreground/60 text-sm'>{project.disc}</p>
             </div>
             <div className='flex gap-2  flex-wrap'>

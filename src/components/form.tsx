@@ -8,7 +8,7 @@ import { Button } from './ui/button';
 function ContactForm() {
   const [state, handleSubmit] = useForm("mknalvyr");
   if (state.succeeded) {
-    return <p>Thanks for Contacting me i will beck to you in 24 hours!</p>;
+    return <p>Thanks for Contacting me I will get back to you in 24 hours!</p>;
   }
   return (
     <form onSubmit={handleSubmit} className='flex flex-col gap-4 p-8 border rounded-md '>
@@ -27,7 +27,7 @@ function ContactForm() {
         <Textarea placeholder="Type your message here." id="message" />
         <ValidationError prefix="message" field="message" errors={state.errors} />
       </div>
-      <Button type="submit" disabled={state.submitting}> Submit </Button>
+      <Button className='text-white' type="submit" disabled={state.submitting}> Submit </Button>
     </form>
   );
 }
