@@ -5,7 +5,7 @@ import { Button } from './ui/button';
 function Introduction() {
   return (
     <div className=' flex gap-8 flex-col md:w-3/5 p-4 pb-14'>
-      <h6 className='md:text-xl sm:text-lg text-lg text-foreground/80 pr-2'>Hi, my name is <span className='px-3 py-1  rounded text-primary border-b-2 border-primary italic'>Shah Zaman</span></h6>
+      <h6 className='md:text-xl sm:text-lg text-lg text-foreground/80 pr-2'>Hi, my name is <span className='text-white italic font-bold'>Shah Zaman</span></h6>
       <TypeAnimation
         sequence={[
           // Same substring at the start will only be typed out once, initially
