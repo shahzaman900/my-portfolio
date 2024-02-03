@@ -15,7 +15,7 @@ let skills = [
   },
   {
     name: 'Professional',
-    skill: ['Remote Pair-Programming', 'Team work', 'Mentoring']
+    skill: ['Remote Pair-Programming', 'Team work', 'Mentoring', 'project management', 'business', 'communication']
   },
 ]
 
