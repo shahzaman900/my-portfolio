@@ -31,6 +31,11 @@ function Header() {
           </a>
         </nav>
         <div className='flex gap-4 items-center justify-center'>
+          <div>
+            <a href="https://drive.google.com/file/d/1xCdFOLMx0uReY1MhsOq3mH7Yf81Rqace/view?usp=sharing" target="_blank">
+              <Button variant={'outline'}>Get My Resume</Button>
+            </a>
+          </div>
           <ModeToggle></ModeToggle>
           <div className='md:hidden'>
             <Sheet>
